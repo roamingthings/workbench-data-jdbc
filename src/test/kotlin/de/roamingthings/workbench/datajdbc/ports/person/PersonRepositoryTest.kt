@@ -8,9 +8,10 @@ import org.springframework.boot.test.context.SpringBootTest
 class PersonRepositoryTest {
 
     @Autowired
-    val personRepository: PersonRepository
+    lateinit var personRepository: PersonRepository
 
     @Test
     fun `it should be great`() {
+
     }
 }

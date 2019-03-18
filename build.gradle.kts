@@ -35,12 +35,11 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 	implementation("org.webjars:bootstrap:4.1.3")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.flywaydb:flyway-core")
+	implementation("org.springframework.data:spring-data-jdbc")
 
 	runtimeOnly("org.springframework.boot:spring-boot-devtools")
 	runtimeOnly("com.h2database:h2")
-
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
